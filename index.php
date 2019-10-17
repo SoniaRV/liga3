@@ -63,6 +63,19 @@
   HTML::forma($liga, 'Modificar '.$tabla, $campos, $props, true);
  $cont = ob_get_clean();
  
+//Estructura de listas de la pagina
+HTML::lista(LIGA('usuarios'), '1', true, false, false);$usuarios = LIGA('usuarios');
+$props    = array('ol' => array('style'=>'font-weight:bold'),
+                  'ul' => array('style'=>'font-weight:bold'));
+HTML::ol($usuarios, '1', $props);
+HTML::ul($usuarios, '1', $props);
+// Estructura del Radio
+niveles = array('1'=>'Gerente', '2'=>'Directivo', '3'=>'Operativo');
+echo HTML::radio($niveles, 'nivel');
+echo '<br />';
+echo HTML::radio(LIGA('usuarios'), 'usuario');
+
+
   // Estuctura el cuerpo de la página
   HTML::cuerpo(array('cont'=>$cont));
   echo '<a href="enrutador/">Probar enrutador (RUTA)</a>';
