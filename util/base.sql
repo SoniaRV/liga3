@@ -51,40 +51,16 @@ INSERT INTO `historial` (`id`, `evento`, `fecha`) VALUES
 (9, 'Se insertó un nuevo usuario con ID: 8 con el nombre: Pedro', '2012-05-04 04:52:25'),
 (10, 'Se insertó un nuevo usuario con ID: 9 con el nombre: Beto', '2012-05-04 04:52:32'),
 (11, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Betzabeth', '2012-05-04 04:52:42'),
-(12, 'Se insertó un nuevo usuario con ID: 11 con el nombre: Oscar', '2012-05-04 20:43:33'),
-(13, 'Se insertó un nuevo usuario con ID: 12 con el nombre: Alfredo', '2012-05-04 20:55:33'),
+(12, 'Se insertó un nuevo usuario con ID: 11 con el nombre:  Ruth', '2012-02-04 08:16:26'),
+(13, 'se inserta iun nuevo usuario con ID:16 con el nombre: Sophia, '2012-02-16 09:28:17'),
 (14, 'Se insertó un nuevo usuario con ID: 13 con el nombre: Betzabeth', '2012-05-07 02:45:23'),
 (15, 'Se insertó un nuevo usuario con ID: 4 con el nombre: Pedro', '2012-05-09 00:58:40'),
 (16, 'Se insertó un nuevo usuario con ID: 5 con el nombre: Juan', '2012-05-09 01:01:19'),
 (17, 'Se insertó un nuevo usuario con ID: 6 con el nombre: Yesenia', '2012-05-09 02:39:42'),
 (18, 'Se insertó un nuevo usuario con ID: 7 con el nombre: Soledad', '2012-05-09 02:39:50'),
 (19, 'Se insertó un nuevo usuario con ID: 8 con el nombre: Oscarito', '2012-05-09 04:15:04'),
-(20, 'Se insertó un nuevo usuario con ID: 8 con el nombre: Yesenia', '2012-05-13 03:57:52'),
-(21, 'Se insertó un nuevo usuario con ID: 9 con el nombre: Soledad', '2012-05-13 03:57:58'),
-(22, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Israel', '2012-05-13 03:58:13'),
-(23, 'Se insertó un nuevo usuario con ID: 11 con el nombre: Oscarito', '2012-05-13 03:58:26'),
-(24, 'Se insertó un nuevo usuario con ID: 12 con el nombre: José Luis', '2012-05-13 03:59:05'),
-(25, 'Se insertó un nuevo usuario con ID: 13 con el nombre: Juan', '2012-05-13 03:59:34'),
-(26, 'Se insertó un nuevo usuario con ID: 14 con el nombre: Alfgo', '2012-05-13 04:03:04'),
-(27, 'Se insertó un nuevo usuario con ID: 15 con el nombre: sdcsdsdds', '2012-05-13 04:04:33'),
-(28, 'Se insertó un nuevo usuario con ID: 16 con el nombre: dfdfdfdfd', '2012-05-13 04:04:40'),
-(29, 'Se insertó un nuevo usuario con ID: 17 con el nombre: dffdfdfd', '2012-05-13 04:05:55'),
-(30, 'Se insertó un nuevo usuario con ID: 18 con el nombre: fdfdfddf', '2012-05-13 04:06:01'),
-(31, 'Se insertó un nuevo usuario con ID: 19 con el nombre: fvcvvv', '2012-05-13 04:08:05'),
-(32, 'Se insertó un nuevo usuario con ID: 20 con el nombre: cvcv', '2012-05-13 04:08:15'),
-(33, 'Se insertó un nuevo usuario con ID: 21 con el nombre: fdffdfd', '2012-05-13 04:09:21'),
-(34, 'Se insertó un nuevo usuario con ID: 22 con el nombre: esdsdsd', '2012-05-13 04:10:21'),
-(35, 'Se insertó un nuevo usuario con ID: 23 con el nombre: sdsdsdsd', '2012-05-13 04:10:31'),
-(36, 'Se insertó un nuevo usuario con ID: 24 con el nombre: sdsdsds', '2012-05-13 04:10:33'),
-(37, 'Se insertó un nuevo usuario con ID: 36 con el nombre: Israel', '2012-05-13 04:11:36'),
-(38, 'Se insertó un nuevo usuario con ID: 67 con el nombre: dfdffdf', '2012-05-13 04:18:25'),
-(39, 'Se insertó un nuevo usuario con ID: 68 con el nombre: dfdfdfdd', '2012-05-13 04:18:36'),
-(40, 'Se insertó un nuevo usuario con ID: 37 con el nombre: Emma', '2012-05-17 05:03:21'),
-(41, 'Se insertó un nuevo usuario con ID: 38 con el nombre: Emmanuel', '2012-05-17 05:03:47'),
-(42, 'Se insertó un nuevo usuario con ID: 39 con el nombre: Alfredo', '2012-11-14 16:47:27'),
-(43, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Alfredo', '2012-11-14 18:35:27'),
-(44, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Ángel', '2012-11-23 20:45:34'),
-(45, 'Se insertó un nuevo usuario con ID: 12 con el nombre: Ricardo', '2012-11-23 21:50:08');
+(20, 'se inserta un nuevo usuario con ID: 8 con el nombre: Samantha', '2015-08-10 3:05:15');
+
 
 -- --------------------------------------------------------
 
@@ -113,7 +89,7 @@ INSERT INTO `puestos` (`id`, `puesto`, `depende`, `fecha`) VALUES
 (5, 'Recursos Humanos', 3, '2012-02-26 21:48:06'),
 (6, 'Mercadotecnia', 4, '2012-02-26 21:48:06'),
 (7, 'Almacén', 3, '2012-12-30 20:20:08'),
-(8, 'Adquisiciones', 3, '2012-12-30 20:20:38');
+(8, 'Ceo', 4, '2015-11-20 15:25:20');
 
 -- --------------------------------------------------------
 
@@ -136,12 +112,9 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nombre`, `contraseña`, `fecha`) VALUES
 (1, 'Galileo', 'd41d8cd98f00b204e9800998ecf8427e', '2011-02-26 06:00:00'),
-(2, 'Alicia', 'd41d8cd98f00b204e9800998ecf8427e', '2012-02-17 04:11:36'),
+(2, 'Alicia', 'd41d8cd98f00b204e9800998ecf8427e', '2012-02-17 04:11:36')
 (3, 'Rafael', 'd41d8cd98f00b204e9800998ecf8427e', '2012-02-17 04:12:03'),
-(8, 'Yesenia', 'f795e34c94384805f4e8da7d98effc81', '2012-05-13 03:57:52'),
-(9, 'Ma. Soledad', 'd41d8cd98f00b204e9800998ecf8427e', '2012-05-13 03:57:58'),
-(10, 'Ángel', '42332323', '2012-11-23 20:45:34'),
-(12, 'Ricardo', 'e10adc3949ba59abbe56e057f20f883e', '2012-11-23 21:50:08');
+(8, 'Yesenia', 'f795e34c94384805f4e8da7d98effc81', '2012-05-13 03:57:52');
 
 --
 -- Disparadores `usuarios`
@@ -175,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `usuarios_puestos` (
 --
 
 INSERT INTO `usuarios_puestos` (`id`, `usuario`, `puesto`, `inicio`, `fin`) VALUES
-(1, 1, 2, '2012-02-26 21:38:46', NULL),
+(2,5,8, '2012-08-15 21:52:13', NULL),
 (4, 2, 3, '2012-02-26 22:23:31', NULL),
 (5, 3, 4, '2012-02-26 22:23:31', NULL);
 
